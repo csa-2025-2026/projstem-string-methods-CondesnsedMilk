@@ -10,17 +10,8 @@ public class StringManip
 
     allCAPS = str1.toUpperCase();
 
-    for(int i = 0; i < str2.length(); i++)
-    {
-      if(i == 0)
-      {
-        oneCAP = str2.substring(0,1).toUpperCase();
-      }
-      else
-      {
-        oneCAP += str2.substring(i,i+1).toLowerCase();
-      }
-    }
+    oneCAP = str2.substring(0,1).toUpperCase();
+    oneCAP += str2.substring(1,str2.length()).toLowerCase();
 
     this.allCAPS = allCAPS;
     this.oneCAP = oneCAP;

@@ -22,7 +22,7 @@ public class Main
       word2 = scan.next();
 
       StringManip result = new StringManip(word, word2);
-      System.out.printf("%nOutput:%n%s%n%s%n",result.getStr1(), result.getStr2());
+      System.out.printf("%nOutput:%n%s%n%s%n", result.getStr1(), result.getStr2());
   }
 
   public static String lastFirstN(String s1, String s2, int n)
